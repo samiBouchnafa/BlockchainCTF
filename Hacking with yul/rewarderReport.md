@@ -134,7 +134,7 @@ Open the terminal and run :
 forge test --match-test testWithdrawMalicious -vv
 ```
 "And the test should pass once more, indicating that a revert occurred."
-Below is the test script:
+Below is the test script, please note that it will only function within a Foundry project environment :
 
 ```java
 pragma solidity ^0.8.18;
@@ -209,11 +209,3 @@ contract testRewarder is Test {
 }
 
 ```
-
-
-
-
-
-
-
-**Recommended Mitigation:** 
